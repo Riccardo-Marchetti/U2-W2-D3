@@ -1,0 +1,21 @@
+header {
+  background-color: $color3;
+  //   nav {
+  //     display: flex;
+  //     flex-direction: row;
+  //   }
+  nav img {
+    width: 300px;
+    max-width: 50%;
+  }
+  ul {
+    // display: flex;
+    li a {
+      color: $testo;
+      text-decoration: none;
+    }
+  }
+  p {
+    color: $testo;
+  }
+}

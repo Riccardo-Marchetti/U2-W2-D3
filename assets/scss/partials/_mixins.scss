@@ -1,0 +1,26 @@
+@mixin floating($myborder) {
+  border-radius: 50px;
+  // box-shadow: ;
+  border: solid 3px;
+  border-color: $myborder;
+}
+#im {
+  width: 300px;
+  max-width: 50%;
+  @include floating(rgb(185, 185, 185));
+}
+@mixin titlebig($colore) {
+  font-size: 3em;
+  color: $colore;
+}
+h1 {
+  @include titlebig(white);
+}
+@mixin centrare {
+  display: flex;
+  align-items: center;
+}
+#head {
+  flex-direction: column;
+  @include centrare;
+}

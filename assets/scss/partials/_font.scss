@@ -1,0 +1,9 @@
+$font1: 1.5em;
+$fontbot: 1em;
+body {
+  font-family: "Times New Roman", Times, serif;
+  font-size: $font1;
+}
+button {
+  font-size: $fontbot;
+}

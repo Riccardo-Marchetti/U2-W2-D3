@@ -1,0 +1,200 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.5em;
+}
+
+button {
+  font-size: 1em;
+}
+
+header {
+  background-color: #640fc5;
+}
+header nav img {
+  width: 300px;
+  max-width: 50%;
+}
+header ul li a {
+  color: #f4f4f4;
+  text-decoration: none;
+}
+header p {
+  color: #f4f4f4;
+}
+
+.spacings {
+  padding: 0.2em;
+}
+
+img {
+  padding-top: 3em;
+}
+
+#buttons button.button1 {
+  background-color: #0e6cff;
+}
+#buttons button.button1:hover {
+  background-color: aqua;
+}
+#buttons button.button2 {
+  background-color: #ff8700;
+}
+#buttons button.button2:hover {
+  background-color: rgb(255, 184, 51);
+}
+#buttons button.button3 {
+  background-color: #4caf50;
+}
+#buttons button.button3:hover {
+  background-color: greenyellow;
+}
+
+#im {
+  width: 300px;
+  max-width: 50%;
+  border-radius: 50px;
+  border: solid 3px;
+  border-color: rgb(185, 185, 185);
+}
+
+h1 {
+  font-size: 3em;
+  color: white;
+}
+
+#head {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}/*# sourceMappingURL=style.css.map */

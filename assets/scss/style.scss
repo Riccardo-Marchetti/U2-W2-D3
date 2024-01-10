@@ -1,9 +1,89 @@
 @import "partials/reset";
 @import "partials/colors";
 @import "partials/font";
-@import "partials/header";
-@import "partials/main";
+
 @import "partials/spaziature";
 @import "partials/buttons";
 @import "partials/mixins";
 @import "partials/animations";
+
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+header {
+  background-color: $color3;
+  nav {
+    @include nav;
+  }
+  nav img {
+    width: 200px;
+
+    margin-top: $top4;
+    margin-left: $pad1;
+  }
+  ul {
+    display: flex;
+    align-items: center;
+    li a {
+      color: $testo;
+      text-decoration: none;
+      padding-left: $left3;
+      font-size: $font3;
+    }
+  }
+  p {
+    color: $testo;
+    font-size: $font3;
+    line-height: $top2;
+  }
+  h1 {
+    @include titlebig(white);
+  }
+}
+.c {
+  @include head;
+}
+#head {
+  flex-direction: column;
+  @include centrare;
+
+  font-size: $font1;
+  padding-left: $pad1;
+}
+.buttons {
+  display: flex;
+  flex-direction: row;
+  margin-left: $pad3;
+  button.button1 {
+    background-color: $color;
+    @include bordobutton;
+
+    &:hover {
+      border: 1px solid #0bc6e3;
+      box-shadow: 0px 0px 17px 5px #0bc6e3;
+    }
+  }
+  button.button2 {
+    background-color: $color;
+    @include bordobutton;
+
+    &:hover {
+      border: 1px solid #0bc6e3;
+      box-shadow: 0px 0px 17px 5px #0bc6e3;
+    }
+  }
+  button.button3 {
+    background-color: $color2;
+    @include bordobutton;
+
+    &:hover {
+      border: 1px solid #0bc6e3;
+      box-shadow: 0px 0px 17px 5px #0bc6e3;
+    }
+  }
+}
+#im {
+  width: 600px;
+  margin-right: $pad2;
+  @include floating(rgb(185, 185, 185));
+}

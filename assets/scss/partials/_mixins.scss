@@ -4,23 +4,34 @@
   border: solid 3px;
   border-color: $myborder;
 }
-#im {
-  width: 300px;
-  max-width: 50%;
-  @include floating(rgb(185, 185, 185));
-}
+
 @mixin titlebig($colore) {
-  font-size: 3em;
+  font-size: $font6;
+  padding-bottom: $bot;
+  margin-top: $top;
   color: $colore;
 }
-h1 {
-  @include titlebig(white);
+@mixin nav {
+  display: flex;
+  flex-direction: row;
 }
 @mixin centrare {
   display: flex;
+  flex-direction: column;
+  // align-items: center;
+}
+@mixin head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   align-items: center;
 }
-#head {
-  flex-direction: column;
-  @include centrare;
+@mixin bordobutton {
+  border-radius: 15px;
+  padding: $top;
+  font-size: $font1;
+  color: $testo;
+  margin-left: $left;
+  margin-bottom: $bot3;
+  justify-content: center;
 }
